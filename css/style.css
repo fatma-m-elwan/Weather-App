@@ -1,0 +1,84 @@
+.bg-main-color {
+    background-color: #2d303d;
+}
+.cetar-box-color {
+    background-color: rgb(38, 41, 54) !important;
+}
+#home {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    
+
+
+}
+
+ input , body{
+    background-color: RGB(30, 32, 43) !important;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.366) !important;
+}
+.bg-sec {
+    background-color: #323544;
+}
+.card {
+    color: #bfc1c8 !important;
+}
+.temp {
+    font-size: 60px !important;
+}
+.logo-text {
+    font-size: 10px ;
+    /* letter-spacing: -1px; */
+}
+ul li a {
+    border: 2px solid transparent !important;
+    font-size: 15px !important;
+
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+
+}
+ul li a:hover  , ul li a.active{
+    /*display: block;*/
+    border:  2px solid #06a5da !important;
+    color: #06a5da !important;
+}
+form input:last-child {
+    top: 8px;
+    right: 10px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #06a5da;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: RGB(30, 32, 43);
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+.icon:hover {
+    background-color: #06a5da !important;
+    color: white !important;
+}
